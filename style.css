@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+body,ul,ol,li,p,span,dl,dt,dd,img,table,thead,tfoot,tbody,th,td,pre,em,strong{
+	margin:0;
+	padding:0;
+	font-weight:400;
+	font-family:Microsoft Yahei,Arial,Tahoma,Verdana,sans-serif;
+	font-size:12px;
+	color:#333;
+	outline:0 none;
+}
+h1,h2,h3,h4,h5,h6{
+	padding:0;
+	margin:0;
+	font-style:normal;
+	font-weight:400;
+	font-size:12px;
+	outline:0 none;
+}
+ul,li,ol{
+	list-style:none;
+}
+form,fieldset,input,textarea,select,option,label{
+	padding:0;
+	margin:0;
+	font-style:normal;
+	font-weight:400;
+	font-size:12px;
+	outline:0 none;
+}
+a,a:link,a:hover{
+	font-size:12px;
+	color:#333;
+	text-decoration:none;
+	outline:0 none;
+}
+span,img{
+	display:block;
+}
+img{
+	border:0 none;
+}
+table{
+	border-spacing:0;
+	border-collapse:collapse;
+}
+.mr20{
+	margin-right:20px;
+}
+.exchange{
+	clear:both;
+	margin:0 auto;
+	width:608px;
+	padding:30px 0;
+	overflow:hidden;
+}
+.rgbWindow{
+	width:232px;
+	/*margin:15px auto;*/
+	padding:20px 30px;
+	float:left;
+	border:1px solid #000;
+}
+.rgbWindow th,.rgbWindow td{
+	padding:10px;
+	font-size:14px;
+	border-bottom:1px solid #000;
+}
+.rgbWindow th{
+	width:80px;
+	text-align:right;
+}
+.rgbWindow td input{
+	width:100px;
+	height:22px;
+	line-height:22px;
+	padding:0 5px;
+	border:1px solid #000;
+}
+.translateBtn{
+	clear:both;
+	margin:10px auto;
+	display:block;
+	width:100px;
+	height:28px;
+	line-height:22px;
+	text-align:center;
+	font-size:14px;
+	border:1px solid #369;
+}
+.title,#result,#resultX{
+	clear:both;
+	text-align:center;
+	height:36px;
+	line-height:36px;
+}
+.title{
+	color:#369;
+	font-size:14px;
+}
+#result,#resultX{
+	border:1px solid #000;
+	border-top:0;
+}
