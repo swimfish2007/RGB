@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>RGB进制转换</title>
+<link href="style.css" rel="stylesheet" />
+</head>
+<body>
+<div class="exchange">
+<div class="rgbWindow mr20">
+<p class="title">RGB转换10进制</p>
+<table cellpadding="0" cellspacing="0">
+<tr>
+<th>Red</th>
+<td><input type="text" id="red" maxlength="2" /></td>
+</tr>
+<tr>
+<th>Green</th>
+<td><input type="text" id="green" maxlength="2" /></td>
+</tr>
+<tr>
+<th>Blue</th>
+<td><input type="text" id="blue" maxlength="2" /></td>
+</tr>
+</table>
+<p id="result"></p>
+<input type="button" id="translate" value="转换" class="translateBtn" />
+</div>
+<div class="rgbWindow">
+<p class="title">10进制转换RGB</p>
+<table cellpadding="0" cellspacing="0">
+<tr>
+<th>Red</th>
+<td><input type="text" id="redX" maxlength="3" /></td>
+</tr>
+<tr>
+<th>Green</th>
+<td><input type="text" id="greenX" maxlength="3" /></td>
+</tr>
+<tr>
+<th>Blue</th>
+<td><input type="text" id="blueX" maxlength="3" /></td>
+</tr>
+</table>
+<p id="resultX"></p>
+<input type="button" id="rTranslate" value="转换" class="translateBtn" />
+</div>
+</div>
+<script src="base.js"></script>
+</body>
+</html>
